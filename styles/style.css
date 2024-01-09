@@ -1,0 +1,279 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    max-width: 1240px;
+    margin: 0px auto;
+}
+
+header {
+    border-radius: 16px;
+    background: linear-gradient(180deg, #161617 0%, rgba(10, 10, 10, 0) 100%);
+    background-image: url('/resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    min-height: 600px;
+    background-size: cover;
+}
+.banner {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-description {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.off {
+    margin-top: 80px;
+    background: #FFF;
+}
+
+.discount {
+    text-align: center;
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.off-title {
+    color: #F00;
+    text-align: center;
+}
+
+.off-des {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.off-picture {
+    padding: 30px 230px;
+}
+
+.welcome {
+    background-image: url('/resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1320px;
+    height: 600px;
+}
+
+.welcome-title {
+    color: #FFF;
+    padding: 120px 550px 0px 120px;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.welcome-des {
+    color: rgba(255, 255, 255, 0.80);
+    padding: 20px 450px 0px 120px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn {
+    color: #FFF;
+    background-color: #161617;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+.welcome {
+    display: flex;
+}
+
+.welcome-logo {
+    width: 240px;
+    height: 360px;
+    margin-top: 160px;
+    margin-right: 60px;
+}
+
+.time {
+    background: #FFF8F3;
+    margin: 80px 0px;
+    width: 1320px;
+    height: 482px;
+}
+
+.time-date {
+    color: #F00;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 100px;
+}
+
+.spann {
+    color: #070211;
+}
+
+.time-btn {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 600px;
+    text-transform: uppercase;
+}
+
+.best-offer {
+    display: flex;
+    gap: 24px;
+}
+
+.offer-title {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+.offer-greatings {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+.offer-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.ellipse {
+    border-radius: 360px;
+    border: #F00;
+    margin-left: 0px;
+}
+
+.year {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.year-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 60px;
+
+}
+
+.year-logo {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+
+.holidays {
+    margin-top: 100px;
+}
+
+.holiday-title {
+    color: #070211;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-greatings {
+    color: #F00;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 15px;
+}
+
+.holiday-des {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.logo-section {
+    display: flex;
+    background-image: url('/resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.group75 {
+    margin-right: 0px;
+}
+
+.group44-pic {
+    margin-top: 160px;
+    margin-left: 0px;
+}
+
+
+.portfolio {
+    margin-top: 100px;
+}
+
+.portfolio-title {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio-greatings {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.portfolio-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.portfolio-pic {
+    display: flex;
+    margin-top: 15px;
+    gap: 15px;
+}
+.portfolio-pic1 {
+    display: flex;
+    margin-top: 15px;
+    gap: 15px;
+}

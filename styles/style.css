@@ -310,16 +310,94 @@ header {
     font-weight: 400;
     margin-top: 20px;
 }
+
 .input {
     display: flex;
     margin-top: 40px;
     justify-content: center;
 }
+
 .input-email {
     border-radius: 50px 0px 0px 50px;
     background: #FFF;
 }
+
 .sub-btn {
     border-radius: 0px 50px 50px 0px;
     background: #F00;
+}
+
+footer {
+    background: #070211;
+    margin: 80px 0px;
+    width: 1320px;
+    height: 482px;
+}
+
+.footer-des {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-des-top {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 120px;
+    margin-left: 140px;
+    margin-bottom: 30px;
+}
+
+.call-des-right {
+    margin-top: 120px;
+    margin-right: 140px;
+}
+
+.call {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.website {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.call-des {
+    display: flex;
+    justify-content: center;
+}
+
+.web-des {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-left {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.bottom-right {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-right: 120px;
 }

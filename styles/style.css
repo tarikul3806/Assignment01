@@ -18,6 +18,7 @@ header {
     min-height: 600px;
     background-size: cover;
 }
+
 .banner {
     text-align: center;
     height: 100%;
@@ -267,13 +268,58 @@ header {
     font-weight: 400;
     margin-top: 20px;
 }
+
 .portfolio-pic {
     display: flex;
     margin-top: 15px;
     gap: 15px;
 }
+
 .portfolio-pic1 {
     display: flex;
     margin-top: 15px;
     gap: 15px;
+}
+
+.subscribe {
+    background: #FFF8F3;
+    margin: 80px 0px;
+    width: 1320px;
+    height: 482px;
+}
+
+.subscribe-pic {
+    margin-top: 80px;
+    margin-left: 580px;
+}
+
+.subscribe-title {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.subscribe-des {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.input {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+.input-email {
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+}
+.sub-btn {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
 }
